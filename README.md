@@ -1,6 +1,6 @@
-# Ndubisi Anyanwu — Georgia Tech Graduate Portfolio
+# Ndubusi Anyanwu — Georgia Tech Graduate Portfolio
 
-**github.com/deathflameninja22/GeorgiaTech_Portfolio**
+**github.com/deathflameninja22/GeorgiaTech_Showcase**
 
 Security engineer and applied ML researcher with dual Georgia Tech graduate degrees — MS Cybersecurity (2023) and MS Computer Science (in progress) — spanning AI security, vulnerability research, full-stack systems, and data science. This portfolio represents selected graduate work curated for technical depth, real-world applicability, and direct relevance to AI security, security engineering, and GRC roles.
 
@@ -118,10 +118,10 @@ Breach forensics of the 2018 Marriott/Starwood incident, ransomware threat and e
 
 ## About
 
-**Ndubisi Anyanwu** is a security engineer and applied researcher with 5+ years supporting classified national security systems across RMF, vulnerability management, and cloud security. He holds an MS in Cybersecurity from Georgia Tech (December 2023) and is completing an MS in Computer Science, with research interests at the intersection of AI risk, security engineering, and governance for emerging technology.
+**Ndubusi Anyanwu** is a security engineer and applied researcher with 5+ years supporting classified national security systems across RMF, vulnerability management, and cloud security. He holds an MS in Cybersecurity from Georgia Tech (December 2023) and is completing an MS in Computer Science, with research interests at the intersection of AI risk, security engineering, and governance for emerging technology.
 
-- GitHub: [github.com/deathflameninja22/GeorgiaTech_Portfolio](https://github.com/deathflameninja22/GeorgiaTech_Portfolio)
-- LinkedIn: [linkedin.com/in/ndubisi-anyanwu](https://www.linkedin.com/in/ndubisi-anyanwu)
+- GitHub: [github.com/deathflameninja22/GeorgiaTech_Showcase](https://github.com/deathflameninja22/GeorgiaTech_Showcase)
+- LinkedIn: [linkedin.com/in/ndubusi-anyanwu-2656b0170](https://www.linkedin.com/in/ndubusi-anyanwu-2656b0170)
 
 ---
 
