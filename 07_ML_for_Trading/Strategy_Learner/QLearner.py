@@ -24,7 +24,6 @@ GT honor code violation.
   		  	   		 	   		  		  		    	 		 		   		 		  
 Student Name: Ndubusi Anyanwu (replace with your name)  		  	   		 	   		  		  		    	 		 		   		 		  
 GT User ID: nanyanwu3 (replace with your User ID)  		  	   		 	   		  		  		    	 		 		   		 		  
-GT ID: 900897987 (replace with your GT ID)  		  	   		 	   		  		  		    	 		 		   		 		  
 """
 
 import numpy as nlp

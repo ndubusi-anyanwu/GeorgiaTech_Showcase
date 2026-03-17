@@ -20,9 +20,9 @@ IEEE-format research paper investigating how large language models can be weapon
 ### 02 · [Binary Exploitation and Defense](./02_Binary_Exploitation_and_Defense/)
 *CS 6264: Information Security Lab: Attacks and Defenses*
 
-Working exploit scripts using both **angr** (symbolic execution) and **pwntools** (manual exploit crafting) against a buffer overflow vulnerability. Demonstrates practical offensive security skills — binary analysis, stack exploitation, control flow hijacking — and the defender's intuition that follows.
+Working exploit script using **angr** (symbolic execution) against a buffer overflow vulnerability, plus a written analysis covering Ghidra binary analysis, checksec hardening assessment, and full exploitation methodology. Demonstrates hands-on offensive security skills applicable to vulnerability research and red team operations.
 
-**Keywords:** Buffer Overflow · pwntools · angr · Symbolic Execution · Exploit Development
+**Keywords:** Buffer Overflow · angr · Symbolic Execution · Ghidra · Exploit Development
 
 ---
 
@@ -35,16 +35,7 @@ Four original research papers written to IEEE double-column standard, covering s
 
 ---
 
-### 04 · [Full-Stack Application with Enterprise Architecture](./04_Software_Architecture_Full_Stack/)
-*CS 6310: Software Architecture and Design*
-
-Spring Boot + React + PostgreSQL application containerized with Docker Compose, with formal Architecture Decision Records (ADRs) and UML class and sequence diagrams. Demonstrates the full software development lifecycle from requirements through deployed, documented system.
-
-**Keywords:** Spring Boot · React · Docker · REST API · UML · Architecture Decision Records
-
----
-
-### 05 · [U.S. Energy Demand Forecasting — CNN-LSTM + D3.js](./05_Energy_Demand_Forecasting/)
+### 04 · [U.S. Energy Demand Forecasting — CNN-LSTM + D3.js](./04_Energy_Demand_Forecasting/)
 *CSE 6242: Data and Visual Analytics — Team Project*
 
 Hybrid CNN-LSTM deep learning model forecasting five-year electricity generation by U.S. state, trained on a decade of EIA data. Interactive D3.js choropleth map visualization. Includes full technical report, poster, and R-based baseline comparison.
@@ -53,7 +44,7 @@ Hybrid CNN-LSTM deep learning model forecasting five-year electricity generation
 
 ---
 
-### 06 · [SHA-1 Length Extension Attack](./06_Applied_Cryptography_SHA1_Attack/)
+### 05 · [SHA-1 Length Extension Attack](./05_Applied_Cryptography_SHA1_Attack/)
 *CS 6260: Applied Cryptography*
 
 From-scratch Python implementation of the SHA-1 length extension attack — reconstructing internal hash state from an intercepted MAC digest to forge authenticated messages without the secret key. Directly applicable to auditing legacy API authentication schemes.
@@ -62,16 +53,16 @@ From-scratch Python implementation of the SHA-1 length extension attack — reco
 
 ---
 
-### 07 · [Network Protocol Implementations](./07_Network_Protocol_Implementations/)
+### 06 · [Network Protocol Implementations](./06_Network_Protocol_Implementations/)
 *CS 6250: Computer Networks*
 
-Clean Python implementations of BGP measurement analysis, Distance Vector Routing (Bellman-Ford), and Spanning Tree Protocol. Demonstrates protocol-level network understanding essential for network security architecture and infrastructure engineering.
+Python implementations of BGP measurement analysis and Distance Vector Routing (Bellman-Ford). Demonstrates protocol-level network understanding essential for network security architecture and infrastructure engineering.
 
-**Keywords:** BGP · Distance Vector · Spanning Tree · Distributed Systems · Python
+**Keywords:** BGP · Distance Vector · Bellman-Ford · Distributed Systems · Python
 
 ---
 
-### 08 · [ML for Algorithmic Trading](./08_ML_for_Trading/)
+### 07 · [ML for Algorithmic Trading](./07_ML_for_Trading/)
 *CS 7646: Machine Learning for Trading*
 
 Custom decision tree and ensemble learners implemented from scratch, a tabular Q-learner (with Dyna-Q), and a StrategyLearner combining technical indicators with reinforcement learning for automated trading. Benchmarked against a hand-crafted manual strategy.
@@ -80,12 +71,21 @@ Custom decision tree and ensemble learners implemented from scratch, a tabular Q
 
 ---
 
-### 09 · [Network Security — ML Threat Detection and Firewall Engineering](./09_Network_Security_ML/)
+### 08 · [Network Security — ML Threat Detection and Firewall Engineering](./08_Network_Security_ML/)
 *CS 6262: Network Security*
 
-ML applied to phishing and network intrusion detection, with a Python firewall rule engine for parsing and validating access control lists against connection logs. Bridges data-driven security with traditional network defense.
+Snort IDS rules engineered to detect real network attack patterns (DoS, brute force, web attacks, botnet C2) against labeled connection data, plus presentation slides covering the full ML-based threat detection approach.
 
-**Keywords:** Intrusion Detection · Phishing Detection · Firewall Rules · scikit-learn · Network Security
+**Keywords:** Snort · IDS · Network Security · Threat Detection · Firewall Rules
+
+---
+
+### 09 · [Full-Stack Application with Enterprise Architecture](./09_Software_Architecture_Full_Stack/)
+*CS 6310: Software Architecture and Design*
+
+Spring Boot + React + PostgreSQL application containerized with Docker Compose, with formal Architecture Decision Records (ADRs) and UML class and sequence diagrams. Demonstrates the full software development lifecycle from requirements through deployed, documented system.
+
+**Keywords:** Spring Boot · React · Docker · REST API · UML · Architecture Decision Records
 
 ---
 
