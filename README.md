@@ -1,6 +1,6 @@
 # Ndubusi Anyanwu — Georgia Tech Graduate Portfolio
 
-**github.com/deathflameninja22/GeorgiaTech_Showcase**
+**github.com/ndubusi-anyanwu/GeorgiaTech_Showcase**
 
 Security engineer and applied ML researcher with dual Georgia Tech graduate degrees — MS Cybersecurity (2023) and MS Computer Science (in progress) — spanning AI security, vulnerability research, full-stack systems, and data science. This portfolio represents selected graduate work curated for technical depth, real-world applicability, and direct relevance to AI security, security engineering, and GRC roles.
 
@@ -116,12 +116,21 @@ Breach forensics of the 2018 Marriott/Starwood incident, ransomware threat and e
 
 ---
 
+### 13 · [AI Cyber Capability Evaluation — A Federal RMF Lens](./13_AI_Cyber_Capability_Evaluation/)
+*Independent Research, 2026*
+
+Synthesis write-up bridging the public benchmark literature on frontier model cyber capability (CyberSecEval, Cybench, NYU CTF Bench, InterCode-CTF, METR, Frontier Red Team reports) and the NIST AI Risk Management Framework that federal programs use to authorize AI systems. Proposes a mapping table from benchmark signal to AI RMF Map subcategory, identifies four gaps that show up only under a federal use case (mission specificity, uplift, configuration drift, reauthorization cadence), and sketches a reference evaluation pattern an agency could apply during ATO style review of a deployed LLM.
+
+**Keywords:** NIST AI RMF · CyberSecEval · Cybench · Frontier Model Evaluation · ATO · Federal AI Adoption · AI Security
+
+---
+
 ## About
 
 **Ndubusi Anyanwu** is a security engineer and applied researcher with 5+ years supporting classified national security systems across RMF, vulnerability management, and cloud security. He holds an MS in Cybersecurity from Georgia Tech (December 2023) and is completing an MS in Computer Science, with research interests at the intersection of AI risk, security engineering, and governance for emerging technology.
 
-- GitHub: [github.com/deathflameninja22/GeorgiaTech_Showcase](https://github.com/deathflameninja22/GeorgiaTech_Showcase)
-- LinkedIn: [linkedin.com/in/ndubusi-anyanwu-2656b0170](https://www.linkedin.com/in/ndubusi-anyanwu-2656b0170)
+- GitHub: [github.com/ndubusi-anyanwu/GeorgiaTech_Showcase](https://github.com/ndubusi-anyanwu/GeorgiaTech_Showcase)
+- LinkedIn: [linkedin.com/in/ndubusi-anyanwu](https://www.linkedin.com/in/ndubusi-anyanwu)
 
 ---
 
