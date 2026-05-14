@@ -40,7 +40,7 @@ Markdown · Public benchmark literature synthesis · NIST AI RMF 1.0 (Map functi
 - Extend the mapping table to AI RMF Govern and Manage functions, not just Map
 - Pilot the reference evaluation pattern against a hypothetical agency LLM deployment scenario and produce a sample MAP 5.2 artifact as a template
 - Track NIST AI RMF Generative AI Profile control updates and refresh the mapping as new guidance lands
-- Add a cleared environment variant of the pattern that addresses classified context evaluations that cannot be done with public benchmarks
+- Add a controlled environment variant of the pattern that addresses sensitive context evaluations that cannot be done with public benchmarks
 
 ---
 

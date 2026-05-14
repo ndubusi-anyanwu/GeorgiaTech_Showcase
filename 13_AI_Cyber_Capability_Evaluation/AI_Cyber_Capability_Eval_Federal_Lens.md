@@ -4,7 +4,7 @@
 
 ## Why I wrote this
 
-I spend most of my work week inside eMASS, building the kind of risk paragraphs and control narratives that let a federal program move toward an Authority to Operate decision. The closer my client systems come to using frontier language models, the more I notice the same uncomfortable thing. There is no clean way to translate "this model is dangerous in a cyber context" into the language an RMF reviewer actually reads.
+I work as a security engineer in federal cyber, where most of my time goes to the risk paragraphs and control narratives that move federal programs toward Authority to Operate decisions. The closer federal programs come to using frontier language models, the more I notice the same uncomfortable thing. There is no clean way to translate "this model is dangerous in a cyber context" into the language an RMF reviewer actually reads.
 
 There are good public benchmarks now. CyberSecEval from Meta. Cybench from Berkeley and Stanford. NYU CTF Bench. METR's autonomous task evaluations. Anthropic publishes Frontier Red Team reports under its Responsible Scaling Policy. There is also a clear and well structured framework in NIST AI RMF, with a Map function designed to characterize risk before a deployment decision is made. What I cannot find, at least not in any consolidated form, is the bridge. Take the published cyber capability evidence, map it to AI RMF Map categories, and produce something a federal reviewer can use during ATO style review of a frontier LLM deployment.
 
@@ -60,9 +60,9 @@ Two things to read off this table. First, no public benchmark cleanly lands in M
 
 ## Where the federal specific gaps show up
 
-When I sit with this mapping next to a real ATO scenario, four gaps come into focus.
+When I work through this mapping against a representative ATO scenario, four gaps come into focus.
 
-The first gap is mission specificity. Public benchmarks measure capability on representative tasks. Federal missions have specific threat surfaces, sometimes classified ones. A score on CyberSecEval tells me the model is generally willing to help with offensive code. It does not tell me whether the model knows enough about a specific platform or a specific collection workflow to be useful to an adversary who already has internal access. That is not a flaw in the benchmark. It is a gap in what is possible to publish openly. The federal version of this evaluation has to be done inside the deployment environment, by cleared personnel, on representative mission data.
+The first gap is mission specificity. Public benchmarks measure capability on representative tasks. Federal missions have specific threat surfaces, some of which cannot be characterized openly. A score on CyberSecEval tells me the model is generally willing to help with offensive code. It does not tell me whether the model knows enough about a specific platform or a specific operational workflow to be useful to an adversary who already has internal access. That is not a flaw in the benchmark. It is a gap in what is possible to publish openly. The federal version of this evaluation has to be done inside the deployment environment, by appropriately cleared personnel, on representative mission data.
 
 The second gap is uplift. RMF reviewers care about delta. The right question is not "can this model write exploit code" but "how much faster, cheaper, or better can a specific adversary class operate with this model than without it." The public benchmark landscape mostly answers the first question, not the second. METR's time horizon evaluations and Anthropic's RSP reports start to gesture toward uplift modeling, but the field is early. A federal reviewer doing this today has to build their own uplift estimate, and the eval results are an input, not a deliverable.
 
@@ -82,7 +82,7 @@ Third, run a curated subset of the public benchmarks against the deployed config
 
 Fourth, compare the deployed configuration results to the vendor reported bare model results. Any delta is the value the deployment configuration is adding or removing in terms of risk. Most of the time the deployment will reduce raw scores because the system prompt and filters do useful work. Sometimes it will not, and that surprise is exactly what MAP 5 was written to surface.
 
-Fifth, write a MAP 5.2 artifact. The artifact does not need to be long. It needs to say what was evaluated, on what configuration, with what results, against what thresholds, and what the residual risk is after compensating controls. The format can be a short technical report attached to the eMASS package.
+Fifth, write a MAP 5.2 artifact. The artifact does not need to be long. It needs to say what was evaluated, on what configuration, with what results, against what thresholds, and what the residual risk is after compensating controls. The format can be a short technical report attached to the accreditation package.
 
 Sixth, register a reauthorization trigger. When the model version changes, when the system prompt changes, or when a new public benchmark in a relevant category is released, the MAP 3 and MAP 5 categories reopen and steps three through five run again. Calendar cadence is not enough.
 
@@ -100,7 +100,7 @@ I did not run any of the benchmarks for this write-up. Doing so honestly require
 
 The reference evaluation pattern in the preceding section assumes a cooperative vendor and a deployment that lives behind a stable API. Federal deployments that fine tune a model, or that wrap an open weights model behind a custom inference stack, will need a heavier evaluation lift than what is sketched here.
 
-Finally, the obvious point. None of this replaces a real adversarial test by a cleared red team on the deployed mission system. The evaluation pattern above is the structured paperwork side of an ATO. The red team is what tells you whether the paperwork is right.
+Finally, the obvious point. None of this replaces a real adversarial test by a qualified red team on the deployed system. The evaluation pattern above is the structured paperwork side of an ATO. The red team is what tells you whether the paperwork is right.
 
 ## References
 
